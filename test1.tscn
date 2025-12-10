@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxlhkcvra7ojb"]
+
+[ext_resource type="PackedScene" uid="uid://cgg3dwa0nw5rp" path="res://models/loft-v1.blend" id="1_oucmq"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="loft-v1" parent="." instance=ExtResource("1_oucmq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78341925, 1.1920929e-07, -0.6101415)
